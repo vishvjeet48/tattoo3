@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fafaf8;
+  --color-foreground: #1a1a1a;
+  --color-card: #ffffff;
+  --color-card-foreground: #1a1a1a;
+  --color-primary: #8b7355;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f5f5f2;
+  --color-secondary-foreground: #1a1a1a;
+  --color-muted: #e8e8e8;
+  --color-muted-foreground: #6b6b6b;
+  --color-accent: #d4a574;
+  --color-accent-foreground: #ffffff;
+  --color-border: #e0e0e0;
+  --color-input: #ffffff;
+  --color-ring: #8b7355;
+  --color-gold: #a89968;
+  --color-gold-light: #c4b5a0;
+  --color-charcoal: #2a2a2a;
+  --color-ink: #1a1a1a;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Cinzel", serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased overflow-x-hidden;
+    background-color: #fafaf8;
+  }
+
+  ::selection {
+    background-color: rgba(139, 115, 85, 0.2);
+    color: #1a1a1a;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold via-gold-light to-gold bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply bg-white/80 backdrop-blur-xl border border-gray-200/50;
+  }
+
+  .glass-gold {
+    @apply bg-white/80 backdrop-blur-xl border border-gold/30;
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 40px rgba(168, 153, 104, 0.15), 0 0 80px rgba(168, 153, 104, 0.05);
+  }
+
+  .glow-red {
+    box-shadow: 0 0 30px rgba(212, 165, 116, 0.15);
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-20 md:py-28;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Artistic border decorations */
+  .border-artistic {
+    @apply relative border border-gold/20;
+  }
+
+  .border-artistic::before,
+  .border-artistic::after {
+    content: '';
+    @apply absolute w-8 h-8 border-gold/40;
+  }
+
+  .border-artistic::before {
+    @apply -top-4 -left-4 border-t-2 border-l-2;
+  }
+
+  .border-artistic::after {
+    @apply -bottom-4 -right-4 border-b-2 border-r-2;
+  }
+
+  /* Subtle line decoration */
+  .line-decoration {
+    @apply relative py-6;
+  }
+
+  .line-decoration::before {
+    content: '';
+    @apply absolute left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/30 to-transparent top-0;
+  }
+
+  /* Elegant shadow for cards */
+  .shadow-artistic {
+    box-shadow: 0 10px 40px rgba(26, 26, 26, 0.08), 0 0 0 1px rgba(168, 153, 104, 0.1);
+  }
+
+  /* Minimalist divider */
+  .divider-artistic {
+    @apply relative h-px bg-gradient-to-r from-gold/10 via-gold/20 to-gold/10;
+  }
+}

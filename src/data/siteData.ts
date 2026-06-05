@@ -15,7 +15,7 @@ export const WHATSAPP_URL =
   "https://wa.me/919876543210?text=Hi%20INK%20GOD%20Pune%2C%20I%27d%20like%20to%20book%20an%20appointment"
 export const PHONE = "+91 98765 43210"
 export const EMAIL = "hello@InkSigniapune.com"
-export const ADDRESS = "Shop no.11, Seeta Govind, Vasantrao Limaye Rd, Perugate, Sadashiv Peth, Pune, Maharashtra 411030"
+export const ADDRESS = "Shop no 8 Shivam Appartment, Vitthal Rao Shivarkar Rd, Wanwadi, Pune, Maharashtra 411040"
 export const MAP_EMBED_URL =
   "https://maps.google.com/maps?q=Koregaon+Park+Pune+Maharashtra&t=&z=15&ie=UTF8&iwloc=&output=embed"
 

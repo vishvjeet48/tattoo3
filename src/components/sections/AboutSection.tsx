@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { SectionHeading } from "@/components/shared/SectionHeading"
 import { ArtisticBackground } from "@/components/backgrounds/ArtisticBackground"
 import { ArtisticSketchBg } from "@/components/backgrounds/ArtisticSketchBg"
-import { TIMELINE, ABOUT_IMAGE } from "@/data/siteData"
+import { TIMELINE } from "@/data/siteData"
 
 export function AboutSection() {
   return (

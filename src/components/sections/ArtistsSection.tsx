@@ -1,11 +1,6 @@
-import { motion } from "framer-motion"
-import { Calendar } from "lucide-react"
-import { InstagramIcon } from "@/components/icons/SocialIcons"
-import { Button } from "@/components/ui/button"
-import { SectionHeading } from "@/components/shared/SectionHeading"
+
 import { ArtisticBackground } from "@/components/backgrounds/ArtisticBackground"
 import { ArtisticSketchBg } from "@/components/backgrounds/ArtisticSketchBg"
-import { ARTISTS } from "@/data/siteData"
 
 export function ArtistsSection() {    
   return (

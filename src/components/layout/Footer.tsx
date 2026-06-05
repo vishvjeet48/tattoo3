@@ -22,7 +22,7 @@ export function Footer() {
                 <span className="font-display text-gold text-sm font-bold">IG</span>
               </div>
               <div>
-                <span className="font-display text-xl font-semibold text-foreground">INK GOD</span>
+                <span className="font-display text-xl font-semibold text-foreground">Tattoo Hub</span>
                 <span className="block text-[10px] text-muted-foreground tracking-[0.2em] uppercase">
                   Pune · Koregaon Park
                 </span>
@@ -99,7 +99,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} INK GOD Tattoo Studio, Pune. All rights reserved.
+            &copy; {new Date().getFullYear()} Tattoo Hub Tattoo Studio, Pune. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground/60">
             Crafted with ink, passion, and precision.

@@ -22,8 +22,8 @@ export function AboutSection() {
             <div className="absolute -inset-3 bg-gradient-to-br from-gold/10 to-transparent rounded-2xl blur-xl" />
             <div className="relative rounded-2xl overflow-hidden border border-border">
               <img
-                src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAEP6X6i--InbdEH01c0JQ-gti-mU_TCXTlA2Eiq_GwK9OJMx1UQ0AHFnpn4YM81HsstEmgpu9I6Yg8mXCr1_tYMZseyU0ixMhgzd2IoqPOt8IKwd5153vyazyZRhRkaGanaG5glaA=s1360-w1360-h1020-rw"
-                alt="INK GOD Tattoo Studio interior in Koregaon Park, Pune"
+                src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFPSctaDH3p_QD_tsyPcEdUe9fX_G4TWEYsS56s67jCS0g5kUg3VZF1IipqwIUWpozYdJuijr0or_ZLo98eAjOV4qe5uurcHEym-e-jDjYpSsa7ldLedT8oldHgghpIHQ2TwsiFd2-pPLM=s1360-w1360-h1020-rw"
+                alt="Tattoo Hub Tattoo Studio interior in Koregaon Park, Pune"
                 className="w-full h-[500px] object-cover"
                 loading="lazy"
               />
@@ -48,7 +48,7 @@ export function AboutSection() {
             />
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded in 2014 in Koregaon Park, INK GOD Tattoo Studio was born from a passion to elevate tattoo artistry to fine art status. Our Pune studio has become a sanctuary for those seeking meaningful, custom-designed tattoos that tell their unique stories.
+                Founded in 2014 in Koregaon Park, Tattoo Hub Tattoo Studio was born from a passion to elevate tattoo artistry to fine art status. Our Pune studio has become a sanctuary for those seeking meaningful, custom-designed tattoos that tell their unique stories.
               </p>
               <p>
                 <strong className="text-foreground">Our Mission:</strong> To create extraordinary tattoo experiences through artistic excellence, uncompromising hygiene standards, and genuine client connection — right in the heart of Pune.

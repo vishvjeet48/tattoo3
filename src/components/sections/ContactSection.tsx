@@ -110,7 +110,7 @@ export function ContactSection() {
             className="rounded-2xl overflow-hidden border border-border h-[400px] lg:h-full min-h-[400px]"
           >
             <iframe
-              title="INK GOD Tattoo Studio — Koregaon Park, Pune"
+              title="Tattoo Hub Tattoo Studio — Koregaon Park, Pune"
               src={MAP_EMBED_URL}
               className="w-full h-full border-0 grayscale opacity-80 hover:opacity-100 transition-opacity"
               loading="lazy"

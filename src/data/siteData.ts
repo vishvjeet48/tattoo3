@@ -14,7 +14,7 @@ export const NAV_LINKS = [
 export const WHATSAPP_URL =
   "https://wa.me/919876543210?text=Hi%20INK%20GOD%20Pune%2C%20I%27d%20like%20to%20book%20an%20appointment"
 export const PHONE = "+91 98765 43210"
-export const EMAIL = "hello@tattoohubpune.com"
+export const EMAIL = "hello@InkSigniapune.com"
 export const ADDRESS = "Shop no.11, Seeta Govind, Vasantrao Limaye Rd, Perugate, Sadashiv Peth, Pune, Maharashtra 411030"
 export const MAP_EMBED_URL =
   "https://maps.google.com/maps?q=Koregaon+Park+Pune+Maharashtra&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -113,7 +113,7 @@ export const TIMELINE = [
   {
     year: "2014",
     title: "Founded in Pune",
-    description: "Tattoo Hub opened in Koregaon Park with a vision to bring world-class tattoo art to Maharashtra.",
+    description: "Ink Signia opened in Koregaon Park with a vision to bring world-class tattoo art to Maharashtra.",
   },
   {
     year: "2017",
@@ -234,7 +234,7 @@ export const REVIEWS = [
   {
     name: "Siddharth Rao",
     rating: 5,
-    text: "From consultation to aftercare, everything was flawless. Tattoo Hub sets the standard for premium tattoo studios in Maharashtra.",
+    text: "From consultation to aftercare, everything was flawless. Ink Signia sets the standard for premium tattoo studios in Maharashtra.",
     image: IMAGES.avatars.siddharth,
   },
   {
@@ -275,7 +275,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: "Can I customise my design?",
-    answer: "Absolutely! Every tattoo at Tattoo Hub Pune is custom-designed. Bring reference images, ideas, or just a concept — our artists will create something uniquely yours during the design consultation.",
+    answer: "Absolutely! Every tattoo at Ink Signia Pune is custom-designed. Bring reference images, ideas, or just a concept — our artists will create something uniquely yours during the design consultation.",
   },
 ] as const
 

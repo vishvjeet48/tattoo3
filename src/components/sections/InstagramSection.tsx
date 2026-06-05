@@ -70,7 +70,7 @@ export function InstagramSection() {
           className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors font-medium"
         >
           <InstagramIcon className="h-5 w-5" />
-          @inkgodstudio
+          @InkSigniapune
         </a>
       </div>
     </section>

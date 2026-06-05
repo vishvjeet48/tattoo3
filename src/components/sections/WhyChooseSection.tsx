@@ -27,7 +27,7 @@ export function WhyChooseSection() {
 
       <div className="relative max-w-7xl mx-auto">
         <SectionHeading
-          label="Why Tattoo Hub Pune"
+          label="Why Ink Signia Pune"
           title="Why Choose Us"
           description="We set the standard for premium tattoo experiences in Koregaon Park — uncompromising quality at every touchpoint."
         />

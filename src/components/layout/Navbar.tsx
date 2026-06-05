@@ -37,7 +37,7 @@ export function Navbar() {
             </div>
             <div className="hidden sm:block">
               <span className="font-display text-lg font-semibold text-foreground tracking-wide">
-                Tattoo Hub
+                Ink Signia
               </span>
               <span className="block text-[10px] text-muted-foreground tracking-[0.2em] uppercase -mt-1">
                 Tattoo Studio
